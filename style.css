@@ -1,8 +1,10 @@
 body {
     font-family: 'Roboto';
+    margin: auto
 }
 .section-one {
     background-color: #1F2937;
+    padding-bottom: 100px;
 }
 .header {
     display: flex;
@@ -49,7 +51,6 @@ a, .hero-secondary-text {
     width: 340px;
     padding: 32px;
 }
-
 /* SECTION 2 */
 img {
     width: 150px;
@@ -61,15 +62,95 @@ img {
     font-weight: 900;
     color: #1F2937;
     margin-bottom: 32px;
-    margin-top: 32px;
+    margin-top: 75px;
     text-align: center;
 }
 .container {
     display:flex;
     justify-content: center;
     gap:52px;
+    margin-bottom: 100px;
 }
 .info {
     max-width: 200px;
 }
 
+/* SECTION 3 */
+.section-three {
+    display: flex;
+    background-color: #E5E7EB;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+.quote-text {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    max-width: 1000px;
+}
+.quote-person{
+    font-size: 24px;
+    color:#1F2937;
+    margin-left: 750px;
+}
+
+/* SECTION 3 */
+.section-four{
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+.secfour-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882f6;
+    max-width: 75%;
+    border-radius: 15px;
+    margin: auto;
+    padding-top: 25px;
+}
+
+.tes-text{
+    display: flex;
+    background-color: #3882f6;
+    flex-direction: column;
+    align-items: center;
+}
+
+.secfour-title{
+    color:#F9FAF8;
+    font-size: 24px;
+    font-weight: 900;
+}
+.secfour-par{
+    font-size: 18px;
+    font-weight: lighter;
+}
+.tes-but{
+    display: flex;
+    background-color: #3882f6;
+}
+.secfour-button{
+    background-color: #3882f6;
+    color:#F9FAF8;
+    border-radius: 8px;
+    padding : 0.6em 2em;
+    font-size: 1.1em;
+    border: 1;
+    border-style: solid;
+    border-color: #F9FAF8;
+    margin-left: 25px;
+    margin-bottom: 20px;
+}
+
+.footer{
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    padding:25px
+}
